@@ -42,6 +42,8 @@ header {
     border: 1px solid rgba(177, 182, 201, 0.28);
     box-sizing: border-box;
     border-radius: 98px;
+    cursor: pointer;
+    outline: none;
 } 
 .select {
     width: 83px;
@@ -50,6 +52,8 @@ header {
     border: 1px solid rgba(177, 182, 201, 0.28);
     box-sizing: border-box;
     border-radius: 98px;
+    cursor: pointer;
+    outline: none;
 }
 .login {
     width: 79px;
@@ -57,12 +61,16 @@ header {
     border: 1px solid rgba(177, 182, 201, 0.28);
     box-sizing: border-box;
     border-radius: 98px;
+    cursor: pointer;
+    outline: none;
 }
 .registr {
     width: 130px;
     height: 50px;
     background: linear-gradient(180deg, #55BCFC 0%, #3D75F1 100%);
     border-radius: 100px;
+    cursor: pointer;
+    outline: none;
 }
 .menu {
     width: 50px;
@@ -70,6 +78,8 @@ header {
     border: 1px solid rgba(177, 182, 201, 0.28);
     box-sizing: border-box;
     border-radius: 98px;
+    cursor: pointer;
+    outline: none;
 }
 .left {
     margin-right: 40%
@@ -98,7 +108,9 @@ header {
     letter-spacing: -0.05em;
     color: #FBFBFB;
 }
-
+.main__subtitle span {
+    color: #3D75F1;
+}
 .next-menu p {
     height: 20px;
     font-size: 18px;
@@ -113,5 +125,35 @@ header {
     background: url('../img/VectorRow.svg') center no-repeat;  
     width: 1rem;
     height: 1rem;
+}
+.feedback-title {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.feedback-title a {
+    width: 121px;
+    height: 24px;
+    font-family: Amsterdam;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #A6A6A6;
+}
+.feedback__colums {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin:auto;
+}
+.feedback__colums>* {
+    flex: 1 1 10rem;
+    padding-left: 2rem;
+    border-left: 2px solid #3D75F1;
 }
 /* :end */
