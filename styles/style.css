@@ -1,0 +1,53 @@
+/* All styles */
+body {
+    background-color: #E5E5E5;
+}
+.container {
+    max-width: 1920px;
+}
+
+/* :end */
+
+/* header */
+.header__manu-left {
+    background-image: url('../img/VectorLeft.svg');
+}
+.header__menu-right {
+    background-image: url('../img/VectorRight.svg');
+}
+.btn {
+    width: 240px;
+    height: 50px;
+    border: 1px solid rgba(177, 182, 201, 0.28);
+    box-sizing: border-box;
+    border-radius: 98px;
+}
+.select {
+    width: 83px;
+    height: 50px;
+    outline: none;
+    border: 1px solid rgba(177, 182, 201, 0.28);
+    box-sizing: border-box;
+    border-radius: 98px;
+}
+.login {
+    width: 79px;
+    height: 50px;
+    border: 1px solid rgba(177, 182, 201, 0.28);
+    box-sizing: border-box;
+    border-radius: 98px;
+}
+.registr {
+    width: 130px;
+    height: 50px;
+    background: linear-gradient(180deg, #55BCFC 0%, #3D75F1 100%);
+    border-radius: 100px;
+}
+.menu {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(177, 182, 201, 0.28);
+    box-sizing: border-box;
+    border-radius: 98px;
+}
+/* :end */
