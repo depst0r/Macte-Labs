@@ -79,5 +79,8 @@ header {
 }
 /* :end */
 /* main */
-
+.next-menu {
+    background: linear-gradient(180deg, #55BCFC 0%, #3D75F1 100%);
+    height: 160px;
+}
 /* :end */
