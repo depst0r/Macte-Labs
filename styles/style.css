@@ -98,10 +98,20 @@ header {
     letter-spacing: -0.05em;
     color: #FBFBFB;
 }
-.row {
+
+.next-menu p {
+    height: 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #FBFBFB;
+    margin: 1rem;
+    border-bottom: 1px dashed #FFFFFF;
+    cursor: pointer;
+}
+.arrow {
     background: url('../img/VectorRow.svg') center no-repeat;  
     width: 1rem;
     height: 1rem;
-    margin-top: 0.5rem;
 }
 /* :end */
