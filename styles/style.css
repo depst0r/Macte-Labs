@@ -163,16 +163,20 @@ header {
 /* footer */
 .footer {
     background: linear-gradient(270.16deg, #55BCFC 0%, #3D75F1 100%);
-    height: 100px;
+    /* height: 100px; */
 }
 .footer__menu {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+    height: 160px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.footer__menu span {
-    width: 98px;
+.footer__menu p {
+    width: 130px;
     height: 20px;
     font-family: Amsterdam;
     font-style: normal;
@@ -180,7 +184,9 @@ header {
     font-size: 16px;
     line-height: 20px;
     color: #FFFFFF;
-    flex: 1 1 10rem;
+    /* flex: 1 1 10rem; */
     align-items: center;
+    margin: 2%;
+    cursor: pointer;
 }
 /* :end */
