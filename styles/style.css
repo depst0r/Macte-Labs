@@ -128,8 +128,9 @@ header {
 }
 .feedback-title {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
+    width: 54%;
 }
 .feedback-title a {
     width: 121px;
@@ -167,6 +168,8 @@ header {
 .footer__menu {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .footer__menu span {
     width: 98px;
@@ -178,6 +181,6 @@ header {
     line-height: 20px;
     color: #FFFFFF;
     flex: 1 1 10rem;
-
+    align-items: center;
 }
 /* :end */
