@@ -203,9 +203,11 @@ header {
     justify-content: center;
     align-items: center; */
     height: 160px;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 .footer__menu p {
     width: 130px;
@@ -220,13 +222,16 @@ header {
     align-items: center;
     margin: 2%;
     cursor: pointer;
+    text-align: center;
 }
 /* :end */
 
 /* media */
 @media screen and (max-width: 1264px) {
     .footer__menu {
-        text-align: center;
+        /* text-align: center; */
+        display: flex;
+        flex-wrap: wrap;
     } 
     .btn, .login, .registr {
         display: none 
@@ -239,6 +244,9 @@ header {
     }
     .feedback__colums {
         width: 95%;
+    }
+    .footer_menu p {
+        width: 300px;
     }
 }
 /* :end */
