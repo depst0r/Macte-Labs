@@ -262,7 +262,6 @@ header {
 .buttons-menu {
     position: absolute;
     margin-left: -50%;
-    display: none;
 }
 .btn-burger {
     width: 240px;
