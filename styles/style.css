@@ -81,6 +81,9 @@ header {
     cursor: pointer;
     outline: none;
 }
+.menu img {
+    vertical-align: middle;
+}
 .left {
     margin-right: 40%
 }
@@ -128,10 +131,11 @@ header {
     font-weight: normal;
     font-size: 18px;
     line-height: 26px;
-    display: flex;
     align-items: center;
     text-align: center;
-color: #6E6E6E;
+    color: #6E6E6E;
+    width: 30%;
+    margin: auto;
 }
 .main__subtitle span {
     color: #3D75F1;
@@ -216,5 +220,11 @@ color: #6E6E6E;
     align-items: center;
     margin: 2%;
     cursor: pointer;
+}
+/* :end */
+
+/* media */
+@media screen and (max-width: 1264px) {
+    
 }
 /* :end */
