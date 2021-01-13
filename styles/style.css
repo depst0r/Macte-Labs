@@ -225,6 +225,20 @@ header {
 
 /* media */
 @media screen and (max-width: 1264px) {
-    
+    .footer__menu {
+        text-align: center;
+    } 
+    .btn, .login, .registr {
+        display: none 
+    }
+    .feedback-title {
+        width: 100%;
+    }
+    .next-menu p {
+        font-size: 16px;
+    }
+    .feedback__colums {
+        width: 95%;
+    }
 }
 /* :end */
