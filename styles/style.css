@@ -117,6 +117,9 @@ header {
     justify-content: center;
     align-items: center;
 }
+.main-text {
+    padding: 10%;
+}
 .next-menu h1 {
     width: 214px;
     height: 20px;
@@ -250,6 +253,52 @@ header {
 }
 .hide {
     display: none;
+}
+.menu-burger {
+    position: absolute;
+    margin-left: 30%;
+}
+
+.buttons-menu {
+    position: absolute;
+    margin-left: -50%;
+    display: none;
+}
+.btn-burger {
+    width: 240px;
+    height: 50px;
+    border: 1px solid rgba(177, 182, 201, 0.28);
+    box-sizing: border-box;
+    border-radius: 98px;
+    cursor: pointer;
+    outline: none;
+}
+.select-burger {
+    width: 83px;
+    height: 50px;
+    outline: none;
+    border: 1px solid rgba(177, 182, 201, 0.28);
+    box-sizing: border-box;
+    border-radius: 98px;
+    cursor: pointer;
+    outline: none;
+}
+.login-burger {
+    width: 79px;
+    height: 50px;
+    border: 1px solid rgba(177, 182, 201, 0.28);
+    box-sizing: border-box;
+    border-radius: 98px;
+    cursor: pointer;
+    outline: none;
+}
+.registr-burger {
+    width: 130px;
+    height: 50px;
+    background: linear-gradient(180deg, #55BCFC 0%, #3D75F1 100%);
+    border-radius: 100px;
+    cursor: pointer;
+    outline: none;
 }
 /* media */
 @media screen and (max-width: 1264px) {
