@@ -108,6 +108,24 @@ header {
     letter-spacing: -0.05em;
     color: #FBFBFB;
 }
+.main__title {
+    display: flex;
+    justify-content: center;
+
+font-family: Amsterdam;
+font-style: normal;
+font-weight: normal;
+font-size: 38px;
+line-height: 44px;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+.main__subtitle {
+    display: flex;
+    justify-content: center;
+}
 .main__subtitle span {
     color: #3D75F1;
 }
